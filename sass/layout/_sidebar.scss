@@ -1,0 +1,15 @@
+aside {
+  display: none;
+  position: fixed;
+  width: $sidebar-width;
+  height: 100vh;
+  background: $sidebar-bg-color;
+}
+@media #{$break-desktop} {
+  aside {
+    display: block;
+  }
+  main {
+    margin-left: $sidebar-width;
+  }
+}

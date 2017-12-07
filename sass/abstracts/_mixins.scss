@@ -1,0 +1,10 @@
+@mixin border-box-reset {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@mixin display-grid {
+  display: -ms-grid;
+  display: grid;
+}
