@@ -16,9 +16,11 @@
 .vertical{
   height: -webkit-calc(100% - #{$sidebar-width});
   flex-direction: column;
-  justify-content: space-between;
-
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
   .nav-link{
+    @include transform-centering(50%, unset, unset, 50%, -50%, -50%);
   }
   @extend .nav;
 }
@@ -28,8 +30,13 @@
   width: 75px;
   border-radius: 50%;
   background-color: white;
+  position: relative;
 }
 
+.sleepy {
+  width: 100%;
+  height: auto;
+}
 @media #{$break-tablet}{
   .horizontal {
     flex-direction: row;
