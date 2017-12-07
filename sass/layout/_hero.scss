@@ -1,0 +1,4 @@
+section.hero {
+  background: $hero-background-url;
+  @include background-image-style;
+}

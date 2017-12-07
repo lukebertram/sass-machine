@@ -63,5 +63,10 @@ aside {
 
   main {
     margin-left: 200px; } }
+section.hero {
+  background: url(../img/portland-skyline.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 200px; }
 
 /*# sourceMappingURL=main.css.map */
