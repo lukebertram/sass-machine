@@ -3,7 +3,17 @@
   position: fixed;
   width: $sidebar-width;
   height: 100vh;
-  background: $sidebar-bg-color;
+  background: $sidebar-bg-gradient;
+}
+img.sidebar-logo{
+  display: block;
+  height: $sidebar-width;
+  width: $sidebar-width;
+}
+img.sidebar-logo{
+  display: block;
+  height: $sidebar-width;
+  width: $sidebar-width;
 }
 @media #{$break-desktop} {
   .sidebar {

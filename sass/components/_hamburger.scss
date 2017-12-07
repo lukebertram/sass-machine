@@ -1,0 +1,12 @@
+.menu-burger{
+  font-size: 2em;
+  border: 2px solid $secondary-color;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+@media #{$break-tablet} {
+  .menu-burger{
+    display: none;
+  }
+}

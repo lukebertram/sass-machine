@@ -1,11 +1,16 @@
-@import "abstracts/functions";
-@import "abstracts/mixins";
-@import "abstracts/variables";
+@import
+  "abstracts/variables",
+  "abstracts/functions",
+  "abstracts/mixins";
 
-@import "base/reset";
+@import
+  "base/reset",
+  "base/typography";
 
-@import "components/buttons";
-@import "components/dropdown";
+@import
+  "components/buttons",
+  "components/dropdown",
+  "components/hamburger";
 
 @import
   "layout/grid",

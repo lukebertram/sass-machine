@@ -1,11 +1,17 @@
+// color palette
+$primary-color: #000;
+$secondary-color: #333;
+$tertiary-color: #555;
+$accent-color: #f00;
+
 // wireframing
 $empty-section-height: 200px;
 // mobile header vars
 $mobile-nav-height: 75px;
 
 // sidebar vars
-$sidebar-width: 200px;
-$sidebar-bg-color: #999;
+$sidebar-width: 150px;
+$sidebar-bg-gradient: linear-gradient(#7e7ebb, #000);
 
 // breakpoints
 $break-tablet: 'screen and (min-width: 768px)';
