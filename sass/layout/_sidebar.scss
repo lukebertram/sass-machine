@@ -5,6 +5,11 @@
   height: 100vh;
   background: $sidebar-bg-color;
 }
+img.sidebar-logo{
+  display: block;
+  height: $sidebar-width;
+  width: $sidebar-width;
+}
 @media #{$break-desktop} {
   .sidebar {
     display: block;
