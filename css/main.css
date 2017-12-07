@@ -50,7 +50,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-aside {
+.sidebar {
   display: none;
   position: fixed;
   width: 200px;
@@ -58,7 +58,7 @@ aside {
   background: #999; }
 
 @media screen and (min-width: 1200px) {
-  aside {
+  .sidebar {
     display: block; }
 
   main {
