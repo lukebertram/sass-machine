@@ -77,6 +77,26 @@ section.hero {
   background: url(../img/portland-skyline.jpg);
   background-size: cover;
   background-position: center;
-  min-height: 200px; }
+  min-height: 200px;
+  position: relative; }
+
+div.intro {
+  width: 75%;
+  height: 50px;
+  background: white;
+  border: 2px black solid;
+  position: absolute;
+  top: 100%;
+  right: unset;
+  left: 50%;
+  bottom: unset;
+  transform: translate(-50%, -50%); }
+  div.intro * {
+    position: absolute;
+    top: 50%;
+    right: unset;
+    left: 50%;
+    bottom: unset;
+    transform: translate(-50%, -50%); }
 
 /*# sourceMappingURL=main.css.map */
