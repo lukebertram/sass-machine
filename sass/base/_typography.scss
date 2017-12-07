@@ -1,0 +1,10 @@
+
+// IMPORT CUSTOM FONTS HERE
+
+a {
+  // font-family: ;
+  color: $secondary-color;
+  &:hover, &:active{
+    color: $accent-color;
+  }
+}
