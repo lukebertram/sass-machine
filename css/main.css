@@ -50,6 +50,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.mobile-nav {
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #888; }
+
+@media screen and (min-width: 1200px) {
+  .mobile-nav {
+    display: none; } }
 .sidebar {
   display: none;
   position: fixed;
