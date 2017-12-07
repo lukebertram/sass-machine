@@ -3,13 +3,21 @@
 }
 
 .horizontal{
-
+  width: 33%;
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  .nav-link{
+    display: none;
+  }
 }
 .vertical{
   height: -webkit-calc(100% - #{$sidebar-width});
   flex-direction: column;
   justify-content: space-between;
-  background: red;
+
   .nav-link{
   }
   @extend .nav;
@@ -20,4 +28,13 @@
   width: 75px;
   border-radius: 50%;
   background-color: white;
+}
+
+@media #{$break-tablet}{
+  .horizontal {
+    flex-direction: row;
+    .nav-link{
+    display: block;
+    }
+  }
 }
