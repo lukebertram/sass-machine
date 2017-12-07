@@ -1,0 +1,13 @@
+.mobile-nav {
+  height: $mobile-nav-height;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #888;
+}
+
+@media #{$break-desktop}{
+  .mobile-nav{
+    display: none;
+  }
+}

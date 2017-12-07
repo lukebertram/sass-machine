@@ -1,4 +1,4 @@
-aside {
+.sidebar {
   display: none;
   position: fixed;
   width: $sidebar-width;
@@ -6,7 +6,7 @@ aside {
   background: $sidebar-bg-color;
 }
 @media #{$break-desktop} {
-  aside {
+  .sidebar {
     display: block;
   }
   main {
