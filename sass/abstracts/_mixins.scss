@@ -8,3 +8,9 @@
   display: -ms-grid;
   display: grid;
 }
+
+@mixin background-image-style {
+  background-size: cover;
+  background-position: center;
+  min-height: $empty-section-height;
+}
