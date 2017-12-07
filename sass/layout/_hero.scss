@@ -1,4 +1,15 @@
 section.hero {
   background: $hero-background-url;
   @include background-image-style;
+  position: relative;
+}
+div.intro {
+  width: 75%;
+  height: 50px;
+  background: white;
+  border: 2px black solid;
+  @include transform-centering(100%, unset,unset,50%,-50%,-50%);
+  * {
+    @include transform-centering(50%, unset,unset,50%,-50%,-50%);
+  }
 }
