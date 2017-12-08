@@ -1,15 +1,15 @@
 section.hero {
-  background: $hero-background-url;
+  background: $hero-background-gradient, $hero-background-url;
   @include background-image-style;
   position: relative;
+  height: $hero-height;
+  margin-bottom: $intro-div-height / 1.5;
 }
 div.intro {
   width: 75%;
-  height: 50px;
+  height: $intro-div-height;
   background: white;
   border: 2px black solid;
   @include transform-centering(100%, unset,unset,50%,-50%,-50%);
-  * {
-    @include transform-centering(50%, unset,unset,50%,-50%,-50%);
-  }
+
 }

@@ -53,6 +53,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  font-family: 'Helvetica Neue', helvetica , arial, sans-serif; }
+
 a {
   color: #333; }
   a:hover, a:active {
@@ -151,15 +154,17 @@ img.sidebar-logo {
   main {
     margin-left: 150px; } }
 section.hero {
-  background: url(../img/portland-skyline.jpg);
+  background: linear-gradient(rgba(156, 198, 164, 0.2), #1c110a), url(../img/portland-skyline.jpg);
   background-size: cover;
   background-position: center;
   min-height: 200px;
-  position: relative; }
+  position: relative;
+  height: 500px;
+  margin-bottom: 133.33333px; }
 
 div.intro {
   width: 75%;
-  height: 50px;
+  height: 200px;
   background: white;
   border: 2px black solid;
   position: absolute;
@@ -168,13 +173,6 @@ div.intro {
   left: 50%;
   bottom: unset;
   transform: translate(-50%, -50%); }
-  div.intro * {
-    position: absolute;
-    top: 50%;
-    right: unset;
-    left: 50%;
-    bottom: unset;
-    transform: translate(-50%, -50%); }
 
 section.panels {
   margin: 70px 0; }
